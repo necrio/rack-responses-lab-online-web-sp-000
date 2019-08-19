@@ -9,7 +9,7 @@ class Application
   resp.write "#{T}"
  
  
-    if T == 12:00
+    if T.between?(0,12)
       resp.write "good morning"
     else
       resp.write "good afternoon"
