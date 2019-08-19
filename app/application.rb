@@ -5,8 +5,7 @@ class Application
  
  T = Time.now.hour
  
- 
-  resp.write "#{T}"
+
  
  
     if T.between?(0,11)
