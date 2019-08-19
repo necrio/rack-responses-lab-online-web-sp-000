@@ -11,7 +11,7 @@ class Application
  
     if T.between?(0,11)
       resp.write "good morning"
-    else
+    else T.between?(12, 23)
       resp.write "good afternoon"
     end
  
