@@ -4,10 +4,10 @@ class Application
     resp = Rack::Response.new
  
  
-    if Time.now == 
-      resp.write "You Win"
+    if Time.now == 12:00
+      resp.write "good morning"
     else
-      resp.write "You Lose"
+      resp.write "good afternoon"
     end
  
     resp.finish
