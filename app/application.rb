@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
  
  
-    if 
+    if Time.now == 
       resp.write "You Win"
     else
       resp.write "You Lose"
